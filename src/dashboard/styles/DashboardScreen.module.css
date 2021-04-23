@@ -1,26 +1,5 @@
 .grid {
-    /*display: grid;*/
-    /*grid-template-columns: 50% 50%;*/
-    /*grid-template-rows: 200px 200px;*/
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.chart-container-1 {
-    height: 150px;
-    flex: 0 0 auto;
-    width: 30%;
-}
-
-.chart-container-2 {
-    height: 150px;
-    flex: 0 0 auto;
-    width: 40%;
-}
-
-.chart-container-3 {
-    height: 150px;
-    flex: 0 0 auto;
-    width: 25%;
 }

@@ -13,7 +13,11 @@ code {
 }
 
 main {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1{
+    font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Helvetica Neue';
 }
