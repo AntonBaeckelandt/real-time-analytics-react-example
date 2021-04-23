@@ -22,6 +22,7 @@ function DashboardScreen(props) {
                 setIsLoading(false);
             })
             .catch(error => {
+                console.log('Error loading statistics', error);
                 setIsError(true);
                 setIsLoading(false);
             });
@@ -33,6 +34,7 @@ function DashboardScreen(props) {
             .then(result => {
             })
             .catch(error => {
+                console.log('Error starting SSE stream', error);
                 setIsError(true);
             });
     }

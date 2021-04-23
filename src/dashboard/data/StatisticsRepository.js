@@ -10,6 +10,7 @@ export default class StatisticsRepository {
                 return json;
             })
             .catch((error) => {
+                console.log('error getting statistics', error)
                 return null;
             })
     }
